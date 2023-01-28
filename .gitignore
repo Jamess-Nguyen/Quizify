@@ -1,5 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# ignore .env file
+.env
+
+# ignore package and package-lock
+package.json
+package-lock.json
+
 # dependencies
 /node_modules
 /.pnp
